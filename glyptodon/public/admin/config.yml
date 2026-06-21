@@ -3,6 +3,7 @@ backend:
   repo: caleb-stults/creative-writing-blog
   branch: main
   auth_type: pkce
+  app_id: 4106292
 
 media_folder: "glyptodon/src/content/images"
 public_folder: "/images"
