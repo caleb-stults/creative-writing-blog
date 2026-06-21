@@ -1,18 +1,20 @@
 ---
-// This ensures the page is treated as a simple static entry, 
-// and we force it to be client-side only.
 export const prerender = true;
-
 import { Keystatic } from '@keystatic/core/ui';
-import keystaticConfig from '../../../keystatic.config.ts';
+import keystaticConfig from '../../../keystatic.config';
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Keystatic Admin</title>
-  </head>
+<html>
   <body>
-    <Keystatic client:only="react" config={keystaticConfig} />
+    <Keystatic 
+      client:only="react" 
+      config={keystaticConfig}
+      storage={{
+        kind: 'github',
+        repo: {
+          owner: 'caleb-stults',
+          name: 'creative-writing-blog',
+        },
+      }}
+    />
   </body>
 </html>
