@@ -7,7 +7,10 @@ export default config({
       owner: 'caleb-stults',
       name: 'creative-writing-blog',
     },
-  branch: 'main',
+    branch: 'main',
+  },
+  ui: {
+    brand: {name: 'Creative Writing CMS'},
   },
   collections: {
     stories: collection({
