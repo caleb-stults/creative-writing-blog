@@ -3,6 +3,7 @@ import { config, collection, fields } from '@keystatic/core';
 export default config({
   storage: {
     kind: 'github',
+    mode: 'github',
     repo: {
       owner: 'caleb-stults',
       name: 'creative-writing-blog',
