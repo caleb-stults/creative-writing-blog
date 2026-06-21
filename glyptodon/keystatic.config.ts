@@ -7,6 +7,7 @@ export default config({
       owner: 'caleb-stults',
       name: 'creative-writing-blog',
     },
+  branch: 'main',
   },
   collections: {
     stories: collection({
