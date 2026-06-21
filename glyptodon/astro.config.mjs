@@ -4,6 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import playformCompress from "@playform/compress";
+import react from "@astrojs/react";
 
 export default defineConfig({
   base: "/",
@@ -14,6 +15,7 @@ export default defineConfig({
     mdx(),
     tailwind(),
     playformCompress(),
+    react(),
   ],
   markdown: {
     shikiConfig: {
