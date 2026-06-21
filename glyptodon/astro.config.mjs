@@ -11,6 +11,7 @@ import keystatic from "@keystatic/astro";
 export default defineConfig({
   base: "/",
   site: 'https://blog.hoss-movies.com',
+  adapter: undefined,
   output: 'static',
   integrations: [
     sitemap(),
