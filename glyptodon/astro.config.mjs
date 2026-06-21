@@ -24,6 +24,9 @@ export default defineConfig({
     },
   },
   vite: {
+    define: {
+      'process.env.KEYSTATIC_GITHUB_CLIENT_ID': JSON.stringify('Iv23liMsuCbP309VxgMe'),
+    },
     ssr: {
       external: ['svgo'],
     },
