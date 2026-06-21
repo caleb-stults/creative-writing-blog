@@ -10,8 +10,7 @@ const baseSchema = z.object({
 });
 
 export const collections = {
-  stories: defineCollection({ type: "content", schema: baseSchema }),
-  poetry: defineCollection({ type: "content", schema: baseSchema }),
-  misc: defineCollection({ type: "content", schema: baseSchema }),
-  // Keep your theme's existing collections if required
+  stories: defineCollection({ type: 'content', schema: z.any() }),
+  poetry: defineCollection({ type: 'content', schema: z.any() }),
+  misc: defineCollection({ type: 'content', schema: z.any() }),
 };

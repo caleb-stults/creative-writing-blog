@@ -1,10 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { CONFIG } from '../config';
 import { getCollection } from 'astro:content';
 import PostCard from '../components/PostCard.astro';
 
-// Fetch your collections
 const stories = (await getCollection('stories')).sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf());
 const poetry = (await getCollection('poetry')).sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf());
 const misc = (await getCollection('misc')).sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf());
@@ -13,79 +11,42 @@ const misc = (await getCollection('misc')).sort((a, b) => b.data.publicationDate
 <Layout title="Home">
     <section id="hero">
         <h1 class="solway-regular">Personal Writing</h1>
-        <p>
-            Welcome. This is a place for me to house my personal writing.
-        </p>
+        <p>Welcome. This is a place for me to house my personal writing.</p>
     </section>
 
-    <hr />
+    <!-- Tabbed Interface -->
+    <div class="tabs">
+        <input type="radio" name="tab" id="tab1" checked />
+        <label for="tab1">Stories</label>
+        <input type="radio" name="tab" id="tab2" />
+        <label for="tab2">Poetry</label>
+        <input type="radio" name="tab" id="tab3" />
+        <label for="tab3">Miscellaneous</label>
 
-    <section class="posts-section">
-        <h2 class="solway-regular">Stories</h2>
-        <div class="posts-grid">
-            {stories.map(post => (
-                <PostCard
-                    title={post.data.title}
-                    description={post.data.description}
-                    publicationDate={post.data.publicationDate}
-                    slug={post.slug}
-                />
-            ))}
+        <div class="content" id="content1">
+            <div class="posts-grid">
+                {stories.map(post => <PostCard {...post.data} slug={post.slug} />)}
+            </div>
         </div>
-    </section>
-
-    <section class="posts-section">
-        <h2 class="solway-regular">Poetry</h2>
-        <div class="posts-grid">
-            {poetry.map(post => (
-                <PostCard
-                    title={post.data.title}
-                    description={post.data.description}
-                    publicationDate={post.data.publicationDate}
-                    slug={post.slug}
-                />
-            ))}
+        <div class="content" id="content2">
+            <div class="posts-grid">
+                {poetry.map(post => <PostCard {...post.data} slug={post.slug} />)}
+            </div>
         </div>
-    </section>
-
-    <section class="posts-section">
-        <h2 class="solway-regular">Miscellaneous</h2>
-        <div class="posts-grid">
-            {misc.map(post => (
-                <PostCard
-                    title={post.data.title}
-                    description={post.data.description}
-                    publicationDate={post.data.publicationDate}
-                    slug={post.slug}
-                />
-            ))}
+        <div class="content" id="content3">
+            <div class="posts-grid">
+                {misc.map(post => <PostCard {...post.data} slug={post.slug} />)}
+            </div>
         </div>
-    </section>
+    </div>
 
     <style>
-        .posts-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        #hero {
-            padding: 2rem 0;
-        }
-
-        #hero h1 {
-            font-size: var(--step-4);
-            margin-bottom: 1rem;
-        }
-
-        section {
-            padding: 1.5rem 0;
-        }
-
-        section h2 {
-            font-size: var(--step-2);
-            font-weight: 600;
-        }
+        .tabs { display: flex; flex-wrap: wrap; }
+        .tabs input { display: none; }
+        .tabs label { padding: 1rem; cursor: pointer; border-bottom: 2px solid transparent; }
+        .tabs input:checked + label { border-bottom: 2px solid var(--color-link); font-weight: bold; }
+        .content { display: none; width: 100%; padding-top: 1rem; }
+        #tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3 { display: block; }
+        .posts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
     </style>
 </Layout>
