@@ -6,7 +6,7 @@ nav:
   - Poetry: poetry/index.md
   - Miscellaneous: misc/index.md
 theme: 
-  name: readthedocs
+  name: material
   favicon: images/favicon.png
   logo: images/favicon.png
   features:
