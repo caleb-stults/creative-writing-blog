@@ -1,3 +1,7 @@
+---
+tags:
+  - high school/college
+---
 # Post College Musings
 *I wrote this to myself right as I was graduating college. How interesting to see yourself in your early 20s speak to their future, with optimism unearned and yet earnest.*
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - high school/college
+---
 # Random Fairytale
 *I have no recollection of why I wrote this or any larger context, but it's fun enough to post here. Interesting notions going on here.*
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - high school/college
+---
 # Life
 *A poem I wrote long ago.*
 

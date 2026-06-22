@@ -1,3 +1,7 @@
+---
+tags:
+  - high school/college
+---
 # Time
 *A poem I wrote long ago.*
 

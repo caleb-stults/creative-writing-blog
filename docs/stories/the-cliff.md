@@ -1,3 +1,7 @@
+---
+tags:
+  - high school/college
+---
 # The Cliff
 *A story I wrote long ago.*
 
