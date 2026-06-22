@@ -2,9 +2,15 @@ site_name: Caleb's Personal Writings
 site_url: https://blog.hoss-movies.com/
 nav:
   - Home: index.md
-  - Stories: stories/index.md
-  - Poetry: poetry/index.md
-  - Miscellaneous: misc/index.md
+  - Stories:
+      - Stories: stories/index.md
+      - The Cliff: stories/the-cliff.md
+  - Poetry:
+      - Poetry: poetry/index.md
+      - the Tide: poetry/the-tide.md
+  - Miscellaneous:
+      - Miscellaneous: misc/index.md
+      - Love: misc/love.md
 theme: 
   name: material
   favicon: images/favicon.png
