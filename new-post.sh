@@ -20,4 +20,6 @@ Content here
 
 EOF
 
+echo "* [$TITLE]($FILE.md)" >> "docs/$FOLDER/index.md"
+
 echo "Created docs/$FOLDER/$FILE.md. It will automatically appear on your site!"

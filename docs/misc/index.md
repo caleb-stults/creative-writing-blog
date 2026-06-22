@@ -2,4 +2,5 @@
 
 Essays, musings, and other thoughts.
 
-{{ nav_children() }}
+* [Love](Love.md)
+* [Post College Musings](college-graduation-musings.md)

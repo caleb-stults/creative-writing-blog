@@ -2,4 +2,10 @@
 
 Welcome to my collection of poetry.
 
-{{ nav_children() }}
+* [Gifts](gifts.md)
+* [Grace](grace.md)
+* [Life](life.md)
+* [The Dawn](the-dawn.md)
+* [The Heart](the-heart.md)
+* [The Tide](the-tide.md)
+* [Time](time.md)
