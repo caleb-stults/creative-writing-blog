@@ -1,6 +1,7 @@
 # Grace
 *A poem I wrote long ago.*
 
+<p style="white-space: pre-line;">
 A man travels down an empty road,
 Less traveled or not, he does not know.
 He seeks to find what he once lost,
@@ -62,3 +63,4 @@ The man walks again, smile large,
 As the mist begins to rise.
 Grace is back, a wonderful gift,
 As the sun destroys the lies. 
+</p>

@@ -19,6 +19,8 @@ nav:
       - Post College Musings: misc/college-graduation-musings.md
 theme: 
   name: material
+  text: Merriweather
+  code: Roboto Mono
   favicon: images/favicon.png
   logo: images/favicon.png
   features:
@@ -27,20 +29,21 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
+    - content.action.edit
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode    
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: deep purple
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

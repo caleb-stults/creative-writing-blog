@@ -1,6 +1,7 @@
 # The Tide
 *A poem I wrote long ago.*
 
+<p style="white-space: pre-line;">
 The tide rolls in once again,
 Returning all that I hoped to forget.
 As the tides washes over my feet,
@@ -26,3 +27,4 @@ It’s been years since that summer on the beach, but the
 Memories seem like they were yesterday. And as the tide 
 Rolls in once again, so do you, beautiful as ever, and we resume
 Our lives, once again complete, as the water washes over our feet.
+</p>

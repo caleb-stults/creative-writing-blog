@@ -1,6 +1,7 @@
 # Life
 *A poem I wrote long ago.*
 
+<p style="white-space: pre-line;">
 Isn’t it funny, how
 Inspiration wells, how
 Thoughts come and then go, how
@@ -49,3 +50,4 @@ All that is left is to accept
 And cherish memories you have kept.
 A season for everything, a time for all.
 When change roars in, we stand tall.
+</p>
