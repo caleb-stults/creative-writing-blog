@@ -19,15 +19,15 @@ nav:
       - Post College Musings: misc/college-graduation-musings.md
 theme: 
   name: material
-  text: Merriweather
-  code: Roboto Mono
+  font:
+    text: Merriweather
+    code: Roboto Mono
   favicon: images/favicon.png
   logo: images/favicon.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.indexes
     - navigation.top
     - content.action.edit
   palette:
@@ -47,3 +47,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+markdown_extensions:
+  - toc:
+      permalink: true
