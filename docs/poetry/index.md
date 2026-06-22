@@ -9,3 +9,4 @@ Welcome to my collection of poetry.
 * [The Heart](the-heart.md)
 * [The Tide](the-tide.md)
 * [Time](time.md)
+* [Dear Friend](dear-friend.md)
