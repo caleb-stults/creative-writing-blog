@@ -21,7 +21,9 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install mkdocs mkdocs-rtd-dropdown
+        run: |
+          pip install mkdocs mkdocs-rtd-dropdown
+          pip install mkdocs-material
 
       - name: Deploy
         run: |
