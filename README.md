@@ -1,12 +1,11 @@
 # Creative Writing Blog
 
-The repository for my creative writing projects, hosted on GitHub Pages.
-
-## Tech Stack
-- Framework: [Astro](https://astro.build/)
-- Theme: [Glyptodon](https://github.com/yakbrother/glyptodon/)
-- CMS: [Keystatic](https://keystatic.com/)
+This is my personal writing blog I'm hosting to keep track of both historical and future writing for myself.
 
 ## Deployment
-- Automated via GitHub Actions.
-- Domain: [blog.hoss-movies.com](https://blog.hoss-movies.com)
+This site is built with **MkDocs** (ReadTheDocs theme) and automatically deployed to [blog.hoss-movies.com](https://blog.hoss-movies.com) via GitHub Actions. 
+
+## Workflow
+1. Add or update Markdown files in the `docs/` directory.
+2. Push changes to the `main` branch.
+3. The GitHub Action `deploy.yml` will automatically build the site and publish to the live domain.
