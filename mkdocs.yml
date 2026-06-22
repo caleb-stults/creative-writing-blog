@@ -2,22 +2,6 @@ site_name: Caleb's Personal Writings
 site_url: https://blog.hoss-movies.com/
 nav:
   - Home: index.md
-  - Tags: tags.md
-  - Stories:
-      - Stories: stories/index.md
-      - The Cliff: stories/the-cliff.md
-      - Random Fairytale: stories/random-fairytale.md
-  - Poetry:
-      - Poetry: poetry/index.md
-      - The Tide: poetry/the-tide.md
-      - Gifts: poetry/gifts.md
-      - Life: poetry/life.md
-      - Grace: poetry/grace.md
-      - Time: poetry/time.md
-  - Miscellaneous:
-      - Miscellaneous: misc/index.md
-      - Love: misc/love.md
-      - Post College Musings: misc/college-graduation-musings.md
 theme: 
   name: material
   font:
@@ -53,3 +37,5 @@ markdown_extensions:
       permalink: true
 plugins:
   - tags
+  - search
+  - awesome-pages
