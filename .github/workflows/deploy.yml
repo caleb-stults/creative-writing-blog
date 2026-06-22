@@ -24,4 +24,6 @@ jobs:
         run: pip install mkdocs mkdocs-rtd-dropdown
 
       - name: Deploy
-        run: mkdocs gh-deploy --force
+        run: |
+          mkdocs build
+          mkdocs gh-deploy --force --remote-branch gh-pages
