@@ -1,2 +1,2 @@
 # Miscellaneous
-A space for fragments, observations, and other writing that doesn't fit elsewhere.
+A space for fragments, observations, and other writings that don't fit elsewhere.
