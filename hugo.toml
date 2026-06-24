@@ -4,4 +4,5 @@ title = "Caleb's Personal Writings"
 theme = 'mana'
 
 [params]
-darkMode = true # Enable this to force dark mode
+darkMode = true
+favicon = "/images/favicon.png"
