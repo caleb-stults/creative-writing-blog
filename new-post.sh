@@ -1,25 +1,20 @@
 #!/bin/bash
-FOLDER=$1
-FILE=$2
+SECTION=$1
+FILENAME=$2
 TITLE=$3
 
-# Just create the file with front matter
-cat <<EOF > "docs/$FOLDER/$FILE.md"
+# Path to the new file
+FILE_PATH="content/$SECTION/$FILENAME.md"
+
+# Create the file with Front Matter and your requested HTML template
+cat <<EOF > "$FILE_PATH"
 ---
+title: "$TITLE"
+date: $(date +%Y-%m-%d)
 tags:
-  - new
+  - 
 ---
 
-# $TITLE
+<p style="white-space: pre-line;"> </p> EOF
 
-*Placeholder description*
-
-<p style="white-space: pre-line;"> <!-- Needed for poetry -->
-Content here
-</p> <!-- Needed for poetry -->
-
-EOF
-
-printf "\n* [%s](%s.md)" "$TITLE" "$FILE" >> "docs/$FOLDER/index.md"
-
-echo "Created docs/$FOLDER/$FILE.md. It will automatically appear on your site!"
+echo "Created $FILE_PATH with template."

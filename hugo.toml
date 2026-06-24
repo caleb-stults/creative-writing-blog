@@ -1,0 +1,7 @@
+baseURL = 'https://blog.hoss-movies.com/'
+languageCode = 'en-us'
+title = "Caleb's Personal Writings"
+theme = 'mana'
+
+[params]
+darkMode = true # Enable this to force dark mode
