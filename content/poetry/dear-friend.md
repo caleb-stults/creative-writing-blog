@@ -5,7 +5,7 @@ tags:
   - high school/college
 ---
 # Dear Friend
-*A poem I wrote long ago*
+*A poem I wrote long ago."
 
 <div style="white-space: pre-line;">
 Dear friend, the pain right now
