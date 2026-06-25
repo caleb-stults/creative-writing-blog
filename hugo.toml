@@ -6,3 +6,23 @@ theme = 'mana'
 [params]
 darkMode = true
 favicon = "/images/favicon.png"
+description = "A collection of some of my creative writings past and present."
+
+[[menu.main]]
+  name = "Stories"
+  url = "/stories/"
+  weight = 1
+
+[[menu.main]]
+  name = "Poetry"
+  url = "/poetry/"
+  weight = 2
+
+[[menu.main]]
+  name = "Miscellaneous"
+  url = "/misc/"
+  weight = 3
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

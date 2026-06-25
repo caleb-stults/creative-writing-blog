@@ -1,3 +1,8 @@
 ---
 title: "Poetry"
+layout: list
+---
+
+# Poetry
+This is my collection of poetry.
 ---

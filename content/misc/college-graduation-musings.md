@@ -1,4 +1,5 @@
 ---
+title: "Post College Musings"
 tags:
   - high school/college
 ---

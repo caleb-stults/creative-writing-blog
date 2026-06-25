@@ -1,4 +1,5 @@
 ---
+title: "Life"
 tags:
   - high school/college
 ---

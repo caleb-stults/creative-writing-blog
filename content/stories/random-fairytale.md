@@ -1,4 +1,5 @@
 ---
+title: "Random Fairytale"
 tags:
   - high school/college
 ---

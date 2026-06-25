@@ -1,10 +1,12 @@
+---
+title: "Home"
+layout: home
+---
 # Welcome to My Personal Writing Site!
 
-This is a personal repository where I house my creative work. You can navigate through the different sections using the sidebar on the left.
+This is a personal repository where I house my creative work.
 
 ## Recent Updates
-- **Stories:** [Check out the latest stories](stories)
-- **Poetry:** [Browse the poetry collection](poetry)
-- **Miscellaneous:** [View miscellaneous notes and thoughts](misc)
-
----
+- [Stories](/stories/)
+- [Poetry](/poetry/)
+- [Miscellaneous](/misc/)

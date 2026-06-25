@@ -1,4 +1,5 @@
 ---
+title: "Love"
 tags:
   - high school/college
 ---

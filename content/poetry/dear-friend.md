@@ -1,4 +1,5 @@
 ---
+title: "Dear Friend"
 tags:
   - high school/college
 ---
