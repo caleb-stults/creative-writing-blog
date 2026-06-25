@@ -1,14 +1,15 @@
-# MkDocs build directory
-site/
+# Hugo output
+public/
+resources/_gen
+hugo_stats.json
 
-# Environment and local caches
-.cache/
-.pytest_cache/
-__pycache__/
-env/
-venv/
-.venv/
-
-# OS files
+# Local development files
 .DS_Store
-Thumbs.db
+.vscode/
+.idea/
+
+# Shell script logs or temp files
+*.tmp
+
+# Hugo local server cache
+.hugo_build.lock
