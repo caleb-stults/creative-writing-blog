@@ -95,6 +95,7 @@
       </div>
     </div>
 
+    {{ if not .IsHome }}
     <div class="posts-list" id="posts-container">
       {{ range .Paginator.Pages }}
         {{ $dataTags := "" }}
@@ -109,6 +110,7 @@
         }}
       {{ end }}
     </div>
+    {{end}}
 
     <!-- Pagination -->
     {{ partial "pagination.html" . }}
