@@ -1,5 +1,6 @@
 ---
 title: "The Tide"
+date: 05-31-2014
 tags:
   - high school/college
 ---
