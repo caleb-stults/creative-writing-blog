@@ -30,24 +30,7 @@
           {{ $avatarAsset := site.Params.avatar.home.assetPath | default site.Params.avatar.assetPath }}
           {{ $enableResize := site.Params.avatar.home.enableResize | default site.Params.avatar.enableResize | default false }}
 
-          {{ if $avatarUrl }}
-            <img src="/images/favicon.png" alt="{{ site.Title }}" class="hero-logo">
-          {{ else if $avatarAsset }}
-            {{ with resources.Get $avatarAsset }}
-              {{ if $enableResize }}
-                {{ with .Resize "512x" }}
-                  <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" class="hero-logo">
-                {{ end }}
-              {{ else }}
-                <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" class="hero-logo">
-              {{ end }}
-            {{ end }}
-          {{ else }}
-            <img
-              src="/images/favicon.png"
-              alt="{{ site.Title }}"
-              class="hero-logo">
-          {{ end }}
+          <img src="/images/favicon.png" style="display:block; width:100px; height:100px;" alt="Test">
         </div>
       </div>
     </div>
