@@ -7,6 +7,7 @@ theme = 'mana'
 darkMode = true
 favicon = "/images/favicon.png"
 description = "A collection of some of my creative writings past and present."
+sectionTitle = "Writings"
 
 [[menu.main]]
   name = "Stories"
