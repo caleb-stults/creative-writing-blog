@@ -7,6 +7,7 @@ tags:
 # Dear Friend
 *A poem I wrote long ago.*
 
+
 <div style="white-space: pre-line;">
 Dear friend, the pain right now
 Is too much to bear.
