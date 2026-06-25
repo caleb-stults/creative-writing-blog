@@ -15,9 +15,11 @@ tags:
   - 
 ---
 
-<div style="white-space: pre-line;"> 
-Content here.
-</div>
+# $TITLE
+
+*Comment here*
+
+Content here
 
 EOF
 
