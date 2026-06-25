@@ -7,7 +7,7 @@ tags:
 # Time
 *A poem I wrote long ago.*
 
-<p style="white-space: pre-line;">
+<div style="white-space: pre-line;">
 Churning, changing, grinding, crushing,
 The passage of time moves ever on.
 It never ceases, never alters,
@@ -42,4 +42,4 @@ So Time goes, moving ever forward into the Void,
 Taking Man by the hand and guiding him in.
 We all feel Time’s embrace, neither caring nor harmful,
 As we go further into what we cannot know.
-</p>
+</div>

@@ -4,12 +4,10 @@ date: 2014-05-31
 tags:
   - high school/college
 ---
-
 # The Dawn
-
 *A poem I wrote long ago.*
 
-<p style="white-space: pre-line;">
+<div style="white-space: pre-line;">
 People always say that things get better
 But I prefer a different quote: It’s always
 Darkest before the dawn. Because in life,
@@ -25,4 +23,4 @@ Now think, is that feeling worth giving up? Is that despair
 So great that you can never experience that again? No, and
 So you must fight the good fight, press onto victory, for when
 You arrive there, your reward shall be more than you know. 
-</p>
+</div>

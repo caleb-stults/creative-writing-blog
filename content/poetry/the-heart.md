@@ -4,12 +4,10 @@ date: 2014-05-31
 tags:
   - high school/college
 ---
-
 # The Heart
-
 *A poem I wrote long ago*
 
-<p style="white-space: pre-line;">  <!-- Needed for poetry -->
+<div style="white-space: pre-line;">  <!-- Needed for poetry -->
 A vessel, full of hope, joy, love, compassion
 Now is utterly decimated and blackened.
 This passionate object, a person of its own,
@@ -31,5 +29,5 @@ It is misled, however, and leaves a trail
 Of carnage in its wake for the brain to sort.
 Eventually, the disaster is too much; the heart
 Blackens, and learns to love no more.
-</p> <!-- Needed for poetry -->
+</div> <!-- Needed for poetry -->
 

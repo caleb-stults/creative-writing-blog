@@ -7,7 +7,7 @@ tags:
 # Gifts
 *A poem I wrote long ago.*
 
-<p style="white-space: pre-line;">
+<div style="white-space: pre-line;">
 Can I create a masterpiece, a work of art that
 Inspires and provokes those who see it?
 Can I write a pieces that lifts the soul,
@@ -24,4 +24,4 @@ But alas, no one is there to receive it! So
 My love sits, unused, useless, rotting holes in
 My heart until it all flows out, and I’m
 Left empty, broken, defeated.
-</p>
+</div>

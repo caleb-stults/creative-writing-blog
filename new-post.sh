@@ -15,6 +15,10 @@ tags:
   - 
 ---
 
-<p style="white-space: pre-line;"> </p> EOF
+<div style="white-space: pre-line;"> 
+Content here.
+</div>
+
+EOF
 
 echo "Created $FILE_PATH with template."

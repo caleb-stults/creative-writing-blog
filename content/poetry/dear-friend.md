@@ -4,12 +4,10 @@ date: 2014-05-31
 tags:
   - high school/college
 ---
-
 # Dear Friend
-
 *A poem I wrote long ago*
 
-<p style="white-space: pre-line;">
+<div style="white-space: pre-line;">
 Dear friend, the pain right now
 Is too much to bear.
 Dear friend, the waves are
@@ -30,5 +28,5 @@ Dear friend, someone who won’t
 Abandon ship in an instant.
 And that, my dear friend, is
 The one, the only, You.
-</p>
+</div>
 
