@@ -1,22 +1,37 @@
 # Caleb's Personal Writings
 
-This site is built with MkDocs Material and the awesome-pages plugin.
+This site is built with [Hugo](https://gohugo.io/).
 
-## Adding New Content
-I use a helper script to keep file structure consistent and to ensure front matter is properly formatted.
+## Development Workflow
 
-1. Create a new post:
-   `./new-post.sh foldername filename "Title"`
+This project utilizes a feature-branch workflow to help me practice proper CI/CD and Git procedures.
 
-2. Organize Navigation:
-   This project uses mkdocs-awesome-pages-plugin. Navigation is generated automatically based on the folder structure. 
+### 1. Start a New Feature
+To start a new post or poem, use the provided helper script:
+```bash
+./new-feature.sh <feature-branch-name> <section> <filename> <title>
+```
 
-   * To change the order or title of a folder/page, create a .pages file inside the directory.
-   * Plugin Documentation: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+### 2. Write and Format
+Write your content in the generated Markdown file in content/. If needed, format the poem spacing.
+```bash
+./fix-poetry.sh content/<section>/<filename>.md
+```
 
-## Deployment
-This site is deployed automatically via GitHub Actions whenever you push to the main branch. 
+### 3. Sync and Submit
+Commit your changes and push your feature branch:
+```bash
+./git-sync.sh
+```
 
-* Theme: Material (Dark/Light mode supported)
-* Customization: See mkdocs.yml for palette and font settings.
-* Drafts: Any file starting with an underscore (e.g., _draft.md) will be ignored by the site generator.
+### 4. Merge
+Open a Pull Request on GitHub.
+Wait for the Hugo Build Check (GitHub Action) to pass.
+Once the build is green, merge the PR into main.
+
+### Repository Structure
+- content/              # All blog posts and poetry.
+- layouts/              # Custom HTML partials and templates.
+- static/               # Assets like images and favicon.ico.
+- .github/workflows/    # CI/CD configuration for automated building.
+- *.sh                  # Automation scripts (new-feature, fix-poetry, git-sync).
