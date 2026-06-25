@@ -5,7 +5,7 @@ theme = 'mana'
 
 [params]
 darkMode = true
-favicon = "/images/favicon.png"
+favicon = "/favicon.png"
 description = "A collection of some of my creative writings past and present."
 sectionTitle = "Writings"
 

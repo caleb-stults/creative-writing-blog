@@ -30,4 +30,3 @@ Of carnage in its wake for the brain to sort.
 Eventually, the disaster is too much; the heart
 Blackens, and learns to love no more.
 </div> <!-- Needed for poetry -->
-

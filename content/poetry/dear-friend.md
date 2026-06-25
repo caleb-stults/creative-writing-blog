@@ -29,4 +29,3 @@ Abandon ship in an instant.
 And that, my dear friend, is
 The one, the only, You.
 </div>
-

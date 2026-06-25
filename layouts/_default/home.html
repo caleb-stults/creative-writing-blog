@@ -30,7 +30,7 @@
           {{ $avatarAsset := site.Params.avatar.home.assetPath | default site.Params.avatar.assetPath }}
           {{ $enableResize := site.Params.avatar.home.enableResize | default site.Params.avatar.enableResize | default false }}
 
-          <img src="/images/favicon.png" style="display:block; width:100px; height:100px;" alt="Test">
+          <img src="/images/favicon.png" alt="{{ site.Title }}" class="hero-logo">
         </div>
       </div>
     </div>
