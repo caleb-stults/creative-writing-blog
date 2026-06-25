@@ -26,3 +26,9 @@ description = "A collection of some of my creative writings past and present."
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[params.avatar]
+  [params.avatar.home]
+    assetPath = "images/favicon.png"
+  [params.avatar.about]
+    assetPath = "images/favicon.png"
