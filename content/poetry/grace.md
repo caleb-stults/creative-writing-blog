@@ -1,6 +1,6 @@
 ---
 title: "Grace"
-date: 05-31-2014
+date: 2014-05-31
 tags:
   - high school/college
 ---
