@@ -30,6 +30,6 @@ sectionTitle = "Writings"
 
 [params.avatar]
   [params.avatar.home]
-    assetPath = "images/favicon.png"
+    assetPath = "/images/favicon.png"
   [params.avatar.about]
-    assetPath = "images/favicon.png"
+    assetPath = "/images/favicon.png"
